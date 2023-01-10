@@ -1,0 +1,187 @@
+
+
+
+
+export const numbers_object = [
+    {
+        img:require('../assets/images/numbers/1.png'),
+    },
+    {
+        img:require('../assets/images/numbers/2.png'),
+    },
+    {
+        img:require('../assets/images/numbers/3.png'),
+    },
+    {
+        img:require('../assets/images/numbers/4.png'),
+    },
+    {
+        img:require('../assets/images/numbers/5.png'),
+    },
+    {
+        img:require('../assets/images/numbers/6.png'),
+    },
+    {
+        img:require('../assets/images/numbers/7.png'),
+    },
+    {
+        img:require('../assets/images/numbers/8.png'),
+    },
+    {
+        img:require('../assets/images/numbers/9.png'),
+    },
+    {
+        img:require('../assets/images/numbers/10.png'),
+    },
+    
+]
+
+export const numbers = [
+    {
+        img:require('../assets/images/numbers/num1.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num2.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num3.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num4.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num5.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num6.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num7.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num8.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num9.png'),
+    },
+    {
+        img:require('../assets/images/numbers/num10.png'),
+    },
+    
+]
+
+ export const counting_objects = [
+    {
+        id:1,
+        question_number:numbers_object[6].img,
+        choice1:numbers[4].img,
+        choice2:numbers[1].img,
+        choice3:numbers[8].img,
+        choice4:numbers[9].img,
+        choice5:numbers[6].img,
+        choice6:numbers[2].img,
+        answer:'5'
+    },
+    {
+        id:2,
+        question_number:numbers_object[8].img,
+        choice1:numbers[4].img,
+        choice2:numbers[1].img,
+        choice3:numbers[8].img,
+        choice4:numbers[9].img,
+        choice5:numbers[6].img,
+        choice6:numbers[2].img,
+        answer:'3'
+    },
+    {
+        id:3,
+        question_number:numbers_object[1].img,
+        choice1:numbers[4].img,
+        choice2:numbers[1].img,
+        choice3:numbers[8].img,
+        choice4:numbers[9].img,
+        choice5:numbers[6].img,
+        choice6:numbers[2].img,
+        answer:'2'
+    },
+    {
+        id:4,
+        question_number:numbers_object[4].img,
+        choice1:numbers[4].img,
+        choice2:numbers[1].img,
+        choice3:numbers[8].img,
+        choice4:numbers[9].img,
+        choice5:numbers[6].img,
+        choice6:numbers[2].img,
+        answer:'1'
+    },
+    {
+        id:5,
+        question_number:numbers_object[2].img,
+        choice1:numbers[4].img,
+        choice2:numbers[1].img,
+        choice3:numbers[8].img,
+        choice4:numbers[9].img,
+        choice5:numbers[6].img,
+        choice6:numbers[2].img,
+        answer:'6'
+    },
+    {
+        id:6,
+        question_number:numbers_object[7].img,
+        choice1:numbers[0].img,
+        choice2:numbers[7].img,
+        choice3:numbers[5].img,
+        choice4:numbers[3].img,
+        choice5:numbers[2].img,
+        choice6:numbers[9].img,
+        answer:'2'
+    },
+    {
+        id:7,
+        question_number:numbers_object[9].img,
+        choice1:numbers[0].img,
+        choice2:numbers[7].img,
+        choice3:numbers[5].img,
+        choice4:numbers[3].img,
+        choice5:numbers[2].img,
+        choice6:numbers[9].img,
+        answer:'6'
+    },
+    {
+        id:8,
+        question_number:numbers_object[0].img,
+        choice1:numbers[0].img,
+        choice2:numbers[7].img,
+        choice3:numbers[5].img,
+        choice4:numbers[3].img,
+        choice5:numbers[2].img,
+        choice6:numbers[9].img,
+        answer:'1'
+    },
+    {
+        id:9,
+        question_number:numbers_object[5].img,
+        choice1:numbers[0].img,
+        choice2:numbers[7].img,
+        choice3:numbers[5].img,
+        choice4:numbers[3].img,
+        choice5:numbers[2].img,
+        choice6:numbers[9].img,
+        answer:'3'
+    },
+    {
+        id:10,
+        question_number:numbers_object[3].img,
+        choice1:numbers[0].img,
+        choice2:numbers[7].img,
+        choice3:numbers[5].img,
+        choice4:numbers[3].img,
+        choice5:numbers[2].img,
+        choice6:numbers[9].img,
+        answer:'4'
+    },
+    
+
+    
+];
