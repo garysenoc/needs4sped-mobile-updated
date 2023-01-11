@@ -17,7 +17,7 @@ import ls from 'react-native-local-storage';
 
 const LetterRecognition = ({ navigation }) => {
   const ref = useRef();
-  const [countDown, setCountDown] = React.useState(240);
+  const [countDown, setCountDown] = React.useState(6);
   const [startTimer, setTimer] = React.useState(true);
 
   const [myId, setMyId] = useState('');
@@ -213,7 +213,7 @@ const LetterRecognition = ({ navigation }) => {
     setCountDown(-1);
     axios
       .post(
-        'http://192.168.1.16:5000/api/score/create-score',
+        'http://192.168.1.8:8080/api/score/create-score',
         {
           userId: myId,
           score: score,

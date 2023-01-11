@@ -34,7 +34,7 @@ const Login = ({ navigation }) => {
       }
 
       const res = await axios.post(
-        'http://192.168.1.16:5000/api/user/login-user',
+        'http:192.168.1.8:8080/api/user/login-user',
         {
           email: username,
           password: password,

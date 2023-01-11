@@ -159,7 +159,7 @@ const ObjectRecognition = ({ navigation }) => {
     console.log(myId);
     axios
       .post(
-        'http://192.168.1.16:5000/api/score/create-score',
+        'http://192.168.1.8:8080/api/score/create-score',
         {
           userId: myId,
           score: score,

@@ -221,7 +221,7 @@ const Account = ({ navigation }) => {
               <Text style={styles.topic_text}>Letter{'\n'}Recognition</Text>
             </TouchableOpacity>
             <TouchableOpacity
-              onPress={() => navigation.navigate('ObjectRecogntionResult')}
+              onPress={() => navigation.navigate('ObjectRecognitionResult')}
               style={styles.topic}
             >
               <Text style={styles.topic_text}>Object{'\n'}Recognition</Text>

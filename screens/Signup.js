@@ -32,7 +32,7 @@ const Signup = ({ navigation }) => {
       console.log(username, password, email);
 
       const res = await axios.post(
-        'http:192.168.1.16:5000/api/user/create-user',
+        'http:192.168.1.8:8080/api/user/create-user',
         {
           username: username,
           password: password,

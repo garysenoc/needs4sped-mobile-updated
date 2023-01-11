@@ -112,9 +112,10 @@ const Account = ({ navigation }) => {
   }, []);
 
   const getData = () => {
+    console.log(myId);
     axios
       .post(
-        'http://192.168.1.16:5000/api/score/get-score',
+        'http:192.168.1.8:8080/api/score/get-score',
         {
           userId: myId,
         },
@@ -126,14 +127,10 @@ const Account = ({ navigation }) => {
         },
       )
       .then((response) => {
+        console.log(response?.data?.data);
         setScores(response?.data?.data?.letterRecognition);
-        setPredictResult(
-          response?.data?.data?.regressionData?.resultLetterRecognition[1],
-        );
-        setPredictResult(
-          response?.data?.regressionData?.resultLetterRecognition[1],
-        );
-        console.log(response?.data?.regressionData?.resultLetterRecognition[1]);
+        setPredictResult(response?.data?.data?.predictLetterRecognition);
+
         // setScores(response.data.data);
 
         // console.log(predictResult);
